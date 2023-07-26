@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+    margin: 0%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+
+.pimg1 {
+    background-image: url(img/image1.jpg);
+    min-height: 100%;
+}
+
+.pimg4 {
+    background-image: url(img/image4.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(img/image3.jpg);
+    min-height: 400px;
+}
+
+.pimg2 {
+    background-image: url(img/image2.jpg);
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg4,
+.pimg3,
+.pimg2 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #0a0000;
+    font-size: 25px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    line-height: 2.7;
+
+    @media screen and (max-width: 400px) {
+        p {
+            line-height: 1.4;
+        }
+    }
+}
+
+.textBg {
+    background: #666;
+    color: rgb(249, 255, 240);
+    padding: 20px;
+
+
+}
+
+.section {
+    padding: 50px, 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #ffffff;
+    color: #272222;
+    padding: 50px;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+    padding: 50px;
+}
